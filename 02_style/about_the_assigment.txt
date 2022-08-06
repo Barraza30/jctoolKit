@@ -1,5 +1,0 @@
-Hi Alexander.
-
-About the documentation, I dont have it ready, I am gonna be working on it this weekend,
-I had a lot work in the office, I didn't have much time to work on it, but I added one of the utilitys 
-in which I am gonna be working for my toolKit.
