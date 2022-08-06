@@ -32,8 +32,9 @@ def set_color(ctrlList=None, color=None):
         except:
             pass
         try:
-            #set control color
-            cmds.setAttr(ctrlName + 'Shape.overrideColor', color)
+            if color:
+                #set control color
+                cmds.setAttr(ctrlName + 'Shape.overrideColor', color)
 
         except:
             pass
