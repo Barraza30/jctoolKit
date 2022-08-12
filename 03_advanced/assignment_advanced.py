@@ -19,6 +19,8 @@ Learning new functions, constructs and a better way of collaboration.
 #*******************************************************************************
 Create a cube class in cube.py
 
+#SEE THE CUBE.PY
+
 
 
 
@@ -40,6 +42,9 @@ b) Update one of your modules using class parenting.
 
 NOTE: a) & b) could be the same task.
 
+#THIS COULD BE THE ABSTRACT_DATA.PY, I DID A CONFIGURATION FILE, IMPORTING A JSON,
+BUT I DID A CLASS FOR THIS.
+
 
 
 
@@ -54,6 +59,8 @@ NOTE: a) & b) could be the same task.
     • Write a comment in the call of the configuration file
       why a configuration file would improve this module.
 
+   #SEE THE ABSTRACT_DATA.PY , AND JOINT_POSITION.DATA
+
 
 
 
@@ -63,6 +70,8 @@ NOTE: a) & b) could be the same task.
 # 05. DECORATOR
 #*******************************************************************************
 Create a decorator in decorator.py
+
+#SEE THE DECORATOR.PY
 
 
 
