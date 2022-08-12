@@ -1,0 +1,3932 @@
+{
+    "head1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -1.0533997105007167e-10, 
+            180.0000000008287, 
+            7.243542863172942
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            0.08212403830358994, 
+            -2.842170943040401e-14, 
+            3.712370045525737e-18
+        ]
+    }, 
+    "head2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|head2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            6.418168645777653e-16, 
+            5.213393746070864e-15, 
+            -0.000759216939538279
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            15.226597998051034, 
+            -7.549516567451064e-15, 
+            -1.8144087649029875e-08
+        ]
+    }, 
+    "jaw1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|jaw1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -3.885976071238284e-05, 
+            0.0005336061702824544, 
+            -114.64148615842454
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -0.9809446621808036, 
+            -4.569124381581327, 
+            -1.927247809577876e-05
+        ]
+    }, 
+    "jaw2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|jaw1_bind|jaw2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -2.0689822112288183e-09, 
+            0.0003737339817248268, 
+            0.0006235748469728839
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            10.88383968523955, 
+            4.3151480355163585e-05, 
+            8.437190760355023e-06
+        ]
+    }, 
+    "l_ankle_pivot": {
+        "dagPath": "|bind|l_ankle_pivot", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            3.019051914109084, 
+            10.313852844799687, 
+            -4.56782774633435
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            16.64204216003418, 
+            13.752958297729492, 
+            -14.80334758758545
+        ]
+    }, 
+    "l_ball_pivot": {
+        "dagPath": "|bind|l_ankle_pivot|l_bankIn_pivot|l_bankOut_pivot|l_heel_pivot|l_ball_pivot", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -3.8861284948189065, 
+            -10.02217271144666, 
+            5.1812368295555915
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            3.019051914109084, 
+            10.313852844799687, 
+            -4.56782774633435
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            1.050319269261217, 
+            5.542141532964373, 
+            28.42144753235237
+        ]
+    }, 
+    "l_bankIn_pivot": {
+        "dagPath": "|bind|l_ankle_pivot|l_bankIn_pivot", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -3.8861284948189048, 
+            -10.022172711446654, 
+            5.1812368295555915
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            3.019051914109084, 
+            10.313852844799687, 
+            -4.56782774633435
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -7.027755498171182, 
+            -11.686516594266985, 
+            17.77097147311491
+        ]
+    }, 
+    "l_bankOut_pivot": {
+        "dagPath": "|bind|l_ankle_pivot|l_bankIn_pivot|l_bankOut_pivot", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -3.8861284948189048, 
+            -10.022172711446654, 
+            5.1812368295555915
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            3.019051914109084, 
+            10.313852844799687, 
+            -4.56782774633435
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            14.245603377098185, 
+            -3.6692619715649735e-06, 
+            4.723850374968526e-06
+        ]
+    }, 
+    "l_clavicle1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            89.63840489043015, 
+            55.451884190947816, 
+            87.98805160430229
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            16.225282730024617, 
+            -12.97030081541044, 
+            -4.489364163861308
+        ]
+    }, 
+    "l_ear1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|l_ear1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            179.9999999999601, 
+            6.879924574390363e-15, 
+            67.74865121982361
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            -22.476791184835754, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            3.305796731418866, 
+            -1.2402525873433647, 
+            -8.847263615644499
+        ]
+    }, 
+    "l_ear2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|l_ear1_bind|l_ear2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            1.0, 
+            1.0, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            4.306718450579049, 
+            0.0, 
+            0.0
+        ]
+    }, 
+    "l_elbow1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            -15.525103486543083
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            46.70111155889758, 
+            -7.105427357601002e-15, 
+            2.842170943040401e-14
+        ]
+    }, 
+    "l_eye1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|l_eye1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            5.133299514834091e-10, 
+            0.0005548380534546543, 
+            -90.00253421730837
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            -2.979494806948237e-41, 
+            -1.8442179591820434e-14, 
+            1.8513264841536972e-25
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            4.441644433355748, 
+            -9.98902194937914, 
+            -4.347212821852343
+        ]
+    }, 
+    "l_eye2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|l_eye1_bind|l_eye2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -2.0689822112288183e-09, 
+            0.0003737339817248268, 
+            0.0006235748469728839
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            1.4047984376579778, 
+            0.00018823211553353758, 
+            -0.09131310984564855
+        ]
+    }, 
+    "l_eyeLidDown1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|l_eyeLidDown1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -0.00030241048185105393, 
+            0.00046518078854352175, 
+            -123.0301221640091
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            4.441644433355748, 
+            -9.98902194937914, 
+            -4.3472128218523425
+        ]
+    }, 
+    "l_eyeLidDown2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|l_eyeLidDown1_bind|l_eyeLidDown2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.00037373398172482704, 
+            0.0006235748469728834
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            1.4047984376579592, 
+            0.00018823211553353758, 
+            -0.09131310984564855
+        ]
+    }, 
+    "l_eyeLidUp1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|l_eyeLidUp1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.00020357061777856014, 
+            0.0005161436516510942, 
+            -68.47791590313717
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            4.4332203758349635, 
+            -10.018739052920035, 
+            -4.347213298689447
+        ]
+    }, 
+    "l_eyeLidUp2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|l_eyeLidUp1_bind|l_eyeLidUp2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.00037373398172482714, 
+            0.0006235748469728834
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            1.4047984376579876, 
+            0.00018823211553353758, 
+            -0.09131310984564855
+        ]
+    }, 
+    "l_foot1_bind": {
+        "dagPath": "|bind|root1_bind|pelvis1_bind|l_hip1_bind|l_knee1_bind|l_foot1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -5.599044198407876, 
+            4.214743089646204, 
+            67.24236657554216
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            56.48736471790314, 
+            -3.552713678800501e-15, 
+            3.552713678800501e-15
+        ]
+    }, 
+    "l_hand1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -11.307338869060194, 
+            20.29616984553865, 
+            0.9974864963511393
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            39.30878024271554, 
+            3.552713678800501e-15, 
+            -8.526512829121202e-14
+        ]
+    }, 
+    "l_hand2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_hand2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            6.361109362927035e-15, 
+            -1.272221872585407e-14
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            14.12591340553871, 
+            7.688294445529209e-14, 
+            2.842170943040401e-14
+        ]
+    }, 
+    "l_heel_pivot": {
+        "dagPath": "|bind|l_ankle_pivot|l_bankIn_pivot|l_bankOut_pivot|l_heel_pivot", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -3.8861284948189048, 
+            -10.022172711446654, 
+            5.1812368295555915
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            3.019051914109084, 
+            10.313852844799687, 
+            -4.56782774633435
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -7.217876153964817, 
+            -1.907626518644616, 
+            -24.709449851339322
+        ]
+    }, 
+    "l_hip1_bind": {
+        "dagPath": "|bind|root1_bind|pelvis1_bind|l_hip1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            174.64448923376207, 
+            -1.6367463652278333, 
+            -5.039219392082048
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            9.033952203788772, 
+            3.1141903717941837, 
+            13.664376360344818
+        ]
+    }, 
+    "l_indexFing1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_indexFingBase1_bind|l_indexFing1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            3.515662952331236, 
+            11.575572656921437, 
+            -12.583924266122773
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            13.50327998699845, 
+            2.842170943040401e-14, 
+            -1.2434497875801753e-14
+        ]
+    }, 
+    "l_indexFing2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_indexFingBase1_bind|l_indexFing1_bind|l_indexFing2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            -20.049560295220527
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            6.3929352557291, 
+            0.001520358098559882, 
+            -7.150824288260083e-08
+        ]
+    }, 
+    "l_indexFing3_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_indexFingBase1_bind|l_indexFing1_bind|l_indexFing2_bind|l_indexFing3_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            1.5902773407317584e-14, 
+            -6.361109362927032e-15, 
+            -3.2400000165879304
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            -9.144094709207607e-15
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            5.00218742075478, 
+            -0.06711037388687657, 
+            -4.009402054805378e-08
+        ]
+    }, 
+    "l_indexFing4_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_indexFingBase1_bind|l_indexFing1_bind|l_indexFing2_bind|l_indexFing3_bind|l_indexFing4_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -1.5902773407317587e-14, 
+            -1.272221872585407e-14, 
+            -1.4312496066585827e-14
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            3.5927717788040923, 
+            7.105427357601002e-15, 
+            9.769962616701378e-14
+        ]
+    }, 
+    "l_indexFingBase1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_indexFingBase1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            89.56915782951918, 
+            -17.491211432783114, 
+            -4.069761794279105
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            3.476764142884221, 
+            -2.899409389596745, 
+            0.767597176295908
+        ]
+    }, 
+    "l_knee1_bind": {
+        "dagPath": "|bind|root1_bind|pelvis1_bind|l_hip1_bind|l_knee1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            -5.379717327507777
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            65.31042798030458, 
+            -3.907985046680551e-14, 
+            3.552713678800501e-15
+        ]
+    }, 
+    "l_middleFing1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_middleFingBase1_bind|l_middleFing1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -7.489191204986748, 
+            1.97721774252606, 
+            -23.703904292973213
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            13.776646040459141, 
+            4.263256414560601e-14, 
+            2.6645352591003757e-15
+        ]
+    }, 
+    "l_middleFing2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_middleFingBase1_bind|l_middleFing1_bind|l_middleFing2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            -6.767569156935403
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            7.318639045329633, 
+            -0.0241562461573821, 
+            -6.929923615506262e-08
+        ]
+    }, 
+    "l_middleFing3_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_middleFingBase1_bind|l_middleFing1_bind|l_middleFing2_bind|l_middleFing3_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            3.1805546814635168e-15, 
+            -3.180554681463516e-15, 
+            -3.2400000165879304
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            -6.758678698109972e-15
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            4.960591396033905, 
+            -0.04832768904500995, 
+            -4.34536431836996e-08
+        ]
+    }, 
+    "l_middleFing4_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_middleFingBase1_bind|l_middleFing1_bind|l_middleFing2_bind|l_middleFing3_bind|l_middleFing4_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -9.541664044390547e-15, 
+            -9.541664044390546e-15, 
+            -1.351735739621994e-14
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            3.992905664071799, 
+            3.552713678800501e-14, 
+            4.163336342344337e-15
+        ]
+    }, 
+    "l_middleFingBase1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_middleFingBase1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            83.35021051994732, 
+            -16.200952961280674, 
+            8.426774418577837
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            3.64403450363983, 
+            -0.5522520995481264, 
+            0.8904785307136933
+        ]
+    }, 
+    "l_nostril1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|l_nostril1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -1.2568647292519662e-14, 
+            1.5324192568148373e-15, 
+            -158.0638446552571
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            21.250805672837416, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            1.885383697470843, 
+            -14.55711336522095, 
+            -0.8192411380225857
+        ]
+    }, 
+    "l_nostril2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|l_nostril1_bind|l_nostril2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            2.492151868493964, 
+            1.3433698597964394e-14, 
+            -1.366962099069724e-14
+        ]
+    }, 
+    "l_pinkyFing1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_pinkyFingBase1_bind|l_pinkyFing1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -8.268281347849822, 
+            -3.3509763057415887, 
+            -10.782650380777385
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            11.583258020446905, 
+            -0.1009018547682956, 
+            0.031579636095443675
+        ]
+    }, 
+    "l_pinkyFing2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_pinkyFingBase1_bind|l_pinkyFing1_bind|l_pinkyFing2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            6.36110936292703e-15, 
+            -4.770832022195275e-15, 
+            -12.591814425945529
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            5.172673917056301, 
+            -1.4210854715202004e-14, 
+            -4.446081369735566e-08
+        ]
+    }, 
+    "l_pinkyFing3_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_pinkyFingBase1_bind|l_pinkyFing1_bind|l_pinkyFing2_bind|l_pinkyFing3_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            3.1805546814635176e-15, 
+            1.5902773407317588e-15, 
+            -9.638203872725297
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            -2.2648144417428613e-14, 
+            2.686354563844024e-13, 
+            -3.231443556366933e-12
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            2.9824240101249018, 
+            -2.842170943040401e-14, 
+            -3.314200824888758e-08
+        ]
+    }, 
+    "l_pinkyFing4_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_pinkyFingBase1_bind|l_pinkyFing1_bind|l_pinkyFing2_bind|l_pinkyFing3_bind|l_pinkyFing4_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            3.409824453517942, 
+            -2.1316282072803006e-13, 
+            -5.329070518200751e-15
+        ]
+    }, 
+    "l_pinkyFingBase1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_pinkyFingBase1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            71.08784987277113, 
+            0.5703373476668919, 
+            24.320626035851053
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            3.252084581112186, 
+            3.5987205275411664, 
+            0.1856710541683384
+        ]
+    }, 
+    "l_ringFing1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_ringFingBase1_bind|l_ringFing1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -5.73508295567331, 
+            -0.5919519003244037, 
+            -16.076376092030277
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            13.10904503338729, 
+            0.0, 
+            1.5987211554602254e-14
+        ]
+    }, 
+    "l_ringFing2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_ringFingBase1_bind|l_ringFing1_bind|l_ringFing2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            -10.1962664759159
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            6.560224150180119, 
+            1.4210854715202004e-14, 
+            -5.275199610466075e-08
+        ]
+    }, 
+    "l_ringFing3_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_ringFingBase1_bind|l_ringFing1_bind|l_ringFing2_bind|l_ringFing3_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            -2.5842006786891068e-15, 
+            -4.281375716614776
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            -1.3487660679853656e-14, 
+            3.608309416804178e-13, 
+            9.74840009868568e-13
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            4.698176578251989, 
+            2.1316282072803006e-14, 
+            -3.482026977863484e-08
+        ]
+    }, 
+    "l_ringFing4_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_ringFingBase1_bind|l_ringFing1_bind|l_ringFing2_bind|l_ringFing3_bind|l_ringFing4_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            3.6668439278709997, 
+            2.1316282072803006e-14, 
+            -3.1530333899354446e-14
+        ]
+    }, 
+    "l_ringFingBase1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_ringFingBase1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            70.76006029046962, 
+            -8.568247220624208, 
+            17.36826806251332
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            3.4217000761700405, 
+            1.6078436910585427, 
+            0.32468619884453176
+        ]
+    }, 
+    "l_scapula1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_scapula1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.21844427213215542, 
+            -1.9258809672775004, 
+            118.71906345232223
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            25.342793044578027, 
+            1.3178856012914837, 
+            1.4408087562694618
+        ]
+    }, 
+    "l_scapula2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_scapula1_bind|l_scapula2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            6.460501696722771e-15, 
+            4.224174186318736e-16, 
+            3.1805546814635187e-15
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            19.659484741450065, 
+            1.0658141036401503e-14, 
+            0.0
+        ]
+    }, 
+    "l_shoulder1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            17.0993166313186, 
+            62.49552114898889, 
+            -31.471795375007606
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            24.26533298043045, 
+            8.881784197001252e-16, 
+            2.842170943040401e-14
+        ]
+    }, 
+    "l_thumbFing1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_thumbFingBase1_bind|l_thumbFing1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            2.449106525928521, 
+            5.610215936241695, 
+            -20.805237756707797
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            2.4390208906686723, 
+            -2.5335694431305456e-08, 
+            -3.552713678800501e-14
+        ]
+    }, 
+    "l_thumbFing2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_thumbFingBase1_bind|l_thumbFing1_bind|l_thumbFing2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            -15.857948325418766
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            6.847891780275603, 
+            0.05956904306406585, 
+            -2.0898390573620418e-08
+        ]
+    }, 
+    "l_thumbFing3_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_thumbFingBase1_bind|l_thumbFing1_bind|l_thumbFing2_bind|l_thumbFing3_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            -19.865789787007703
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            6.648787857294934, 
+            -0.15103614632738882, 
+            -1.550252193283086e-08
+        ]
+    }, 
+    "l_thumbFing4_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_thumbFingBase1_bind|l_thumbFing1_bind|l_thumbFing2_bind|l_thumbFing3_bind|l_thumbFing4_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -6.361109362927032e-15, 
+            3.180554681463515e-15, 
+            -3.180554681463515e-15
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            5.365140857427065, 
+            -1.2079226507921703e-13, 
+            9.947598300641403e-14
+        ]
+    }, 
+    "l_thumbFingBase1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|l_clavicle1_bind|l_shoulder1_bind|l_elbow1_bind|l_hand1_bind|l_thumbFingBase1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            173.92770432574684, 
+            10.776520085485018, 
+            -45.02610830413812
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            1.4160280544683133, 
+            -2.521950762374937, 
+            -0.5593127535522484
+        ]
+    }, 
+    "l_toe_pivot": {
+        "dagPath": "|bind|l_ankle_pivot|l_bankIn_pivot|l_bankOut_pivot|l_heel_pivot|l_ball_pivot|l_toe_pivot", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -3.8861284948189048, 
+            -10.022172711446657, 
+            5.1812368295555915
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            3.019051914109084, 
+            10.313852844799687, 
+            -4.56782774633435
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            0.39172562205287065, 
+            -2.9442011249651676, 
+            14.546105262161364
+        ]
+    }, 
+    "l_toes1_bind": {
+        "dagPath": "|bind|root1_bind|pelvis1_bind|l_hip1_bind|l_knee1_bind|l_foot1_bind|l_toes1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -6.7779359627829e-14, 
+            -4.472655020808071e-15, 
+            25.54872266501856
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            4.770832022195275e-14
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            22.906797298282704, 
+            1.6536872371226758, 
+            -4.263256414560601e-14
+        ]
+    }, 
+    "l_toes2_bind": {
+        "dagPath": "|bind|root1_bind|pelvis1_bind|l_hip1_bind|l_knee1_bind|l_foot1_bind|l_toes1_bind|l_toes2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -3.119055674927406e-14, 
+            9.939233379573492e-16, 
+            -1.9878466759146984e-15
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            14.553018631996398, 
+            -8.881784197001252e-15, 
+            0.0
+        ]
+    }, 
+    "neck1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            -40.561224199695694
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -1.6962041712531573e-05, 
+            -0.00030382859173716525, 
+            4.791618057035421e-12
+        ]
+    }, 
+    "neck2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            1.7164473502751292
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            7.537998676299992, 
+            -0.0005345859784995355, 
+            4.7841142275594094e-12
+        ]
+    }, 
+    "neck3_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            22.53636963121728
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            8.299080848693961, 
+            1.1368683772161603e-13, 
+            1.4748800920466433e-09
+        ]
+    }, 
+    "neck4_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            179.99999999916463, 
+            18.886181747437917
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            7.551834106445085, 
+            0.00030134092166633764, 
+            2.8940989969767976e-08
+        ]
+    }, 
+    "nose1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|nose1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -1.2568647292519662e-14, 
+            1.5324192568148373e-15, 
+            -158.0638446552571
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            3.3052599859212535, 
+            -14.466758084676378, 
+            -3.040124049380143e-08
+        ]
+    }, 
+    "nose2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|nose1_bind|nose2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            4.687912834040292, 
+            -6.661338147750939e-16, 
+            0.0
+        ]
+    }, 
+    "pelvis1_bind": {
+        "dagPath": "|bind|root1_bind|pelvis1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -90.00000000000001, 
+            5.932735555324221, 
+            -90.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            1.7472235092973294e-15, 
+            4.865562644340571e-05, 
+            -8.731507306825037e-05
+        ]
+    }, 
+    "pelvis2_bind": {
+        "dagPath": "|bind|root1_bind|pelvis1_bind|pelvis2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            26.17269741705519, 
+            1.0658141036401503e-14, 
+            -1.530119076705576e-14
+        ]
+    }, 
+    "r_ankle_pivot": {
+        "dagPath": "|bind|r_ankle_pivot", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -180.0, 
+            0.0, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            3.019051914109084, 
+            10.313852844799687, 
+            -4.56782774633435
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -16.642, 
+            13.753, 
+            -14.8033
+        ]
+    }, 
+    "r_balr_pivot": {
+        "dagPath": "|bind|r_ankle_pivot|r_bankIn_pivot|r_bankOut_pivot|r_heel_pivot|r_balr_pivot", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -3.8861284948190224, 
+            -10.02217271144666, 
+            5.181236829555591
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            3.019051914109084, 
+            10.313852844799687, 
+            -4.56782774633435
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -1.0503242439417242, 
+            -5.542143723324535, 
+            -28.17706679813067
+        ]
+    }, 
+    "r_bankIn_pivot": {
+        "dagPath": "|bind|r_ankle_pivot|r_bankIn_pivot", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -3.8861284948187027, 
+            -10.022172711446629, 
+            5.181236829555576
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            3.019051914109084, 
+            10.313852844799687, 
+            -4.56782774633435
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            5.723816166708146, 
+            11.686556811616455, 
+            -17.770934890878884
+        ]
+    }, 
+    "r_bankOut_pivot": {
+        "dagPath": "|bind|r_ankle_pivot|r_bankIn_pivot|r_bankOut_pivot", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -3.8861284948189208, 
+            -10.022172711446686, 
+            5.181236829555611
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            3.019051914109084, 
+            10.313852844799687, 
+            -4.56782774633435
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -13.246483500274515, 
+            3.5844575853853093e-06, 
+            -4.865628813053808e-06
+        ]
+    }, 
+    "r_clavicle1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            89.63840489043017, 
+            55.45188419094779, 
+            -92.0119483956977
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            16.22544355405128, 
+            -12.970305200047713, 
+            4.489360000000006
+        ]
+    }, 
+    "r_ear1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|r_ear1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            179.9999999999601, 
+            6.879924574390363e-15, 
+            67.74865121982361
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            -180.0, 
+            22.47699999999998, 
+            8.605088823326579e-16
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            3.305796731418866, 
+            -1.2402525873108345, 
+            8.84699996957444
+        ]
+    }, 
+    "r_ear2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|r_ear1_bind|r_ear2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            1.0000000000000004, 
+            1.0, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            4.306718450579049, 
+            0.0, 
+            0.0
+        ]
+    }, 
+    "r_elbow1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            2.8181671893380616e-15, 
+            -2.067360542951286e-14, 
+            -15.525103486543083
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -46.70079053947072, 
+            -4.847340356661789e-05, 
+            -0.0002147913524481737
+        ]
+    }, 
+    "r_eye1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|r_eye1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            7.590343156097109e-10, 
+            0.0005548382641322048, 
+            89.99746578269165
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            -2.979494806948237e-41, 
+            -1.8442179591820434e-14, 
+            1.8513264841536972e-25
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            4.441526025027969, 
+            -9.989025019204021, 
+            4.347209969590527
+        ]
+    }, 
+    "r_eye2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|r_eye1_bind|r_eye2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            8.558074008635746e-07, 
+            0.00037373398268906934, 
+            0.0006235748485689991
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -1.4047908843419084, 
+            -5.126619186057724e-06, 
+            0.09131639635678113
+        ]
+    }, 
+    "r_eyeLidDown1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|r_eyeLidDown1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -0.00030241109540986294, 
+            0.0004651809651790855, 
+            56.96987783599091
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            4.441526025027969, 
+            -9.989025019204021, 
+            4.347209969590527
+        ]
+    }, 
+    "r_eyeLidDown2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|r_eyeLidDown1_bind|r_eyeLidDown2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            2.033751807032814e-09, 
+            0.0003737337249570228, 
+            0.0006235744185618853
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -1.404511141422745, 
+            -0.0006237685719270303, 
+            0.09131859357322458
+        ]
+    }, 
+    "r_eyeLidUp1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|r_eyeLidUp1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0002035724174416669, 
+            0.000516143847634801, 
+            111.52208409686283
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            4.433524819371513, 
+            -10.018734694531148, 
+            4.3472099695905815
+        ]
+    }, 
+    "r_eyeLidUp2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|r_eyeLidUp1_bind|r_eyeLidUp2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            8.558074008636327e-07, 
+            0.0003737339827056656, 
+            0.0006235748485590522
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -1.4045813886188654, 
+            0.00036280116336229185, 
+            0.09131734567324656
+        ]
+    }, 
+    "r_foot1_bind": {
+        "dagPath": "|bind|root1_bind|pelvis1_bind|r_hip1_bind|r_knee1_bind|r_foot1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -5.599044198407856, 
+            4.214743089646234, 
+            67.24236657554219
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -56.48736471790319, 
+            0.0, 
+            1.4210854715202004e-14
+        ]
+    }, 
+    "r_hand1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -11.307338869060121, 
+            20.296169845538635, 
+            0.9974864963511403
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -39.30855507544091, 
+            3.1777910008301546e-05, 
+            -0.00013006165039541884
+        ]
+    }, 
+    "r_hand2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_hand2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            8.537736462515934e-07, 
+            1.1848489653070383e-23, 
+            -2.0734856534243282e-23
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -14.126647797367198, 
+            -7.136771039545353e-05, 
+            8.744728120291256e-05
+        ]
+    }, 
+    "r_heel_pivot": {
+        "dagPath": "|bind|r_ankle_pivot|r_bankIn_pivot|r_bankOut_pivot|r_heel_pivot", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -3.8861284948189185, 
+            -10.022172711446663, 
+            5.181236829555593
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            3.019051914109084, 
+            10.313852844799687, 
+            -4.56782774633435
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            7.522642243754625, 
+            1.907626557323589, 
+            24.465068279816244
+        ]
+    }, 
+    "r_hip1_bind": {
+        "dagPath": "|bind|root1_bind|pelvis1_bind|r_hip1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            174.64448923376207, 
+            -1.6367463652278438, 
+            174.96078060791794
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            9.033952203788772, 
+            3.11419037179418, 
+            -13.66437636034481
+        ]
+    }, 
+    "r_indexFing1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_indexFingBase1_bind|r_indexFing1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            3.515662952330994, 
+            11.57557265692141, 
+            -12.583924266122755
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -13.502941134226731, 
+            -0.00014799144302912737, 
+            -6.629992000917184e-05
+        ]
+    }, 
+    "r_indexFing2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_indexFingBase1_bind|r_indexFing1_bind|r_indexFing2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -1.7288758691579734e-14, 
+            9.780205645500314e-14, 
+            -20.049560295220537
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -6.393346490226236, 
+            -0.0014322477448018844, 
+            -1.4791203385655649e-05
+        ]
+    }, 
+    "r_indexFing3_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_indexFingBase1_bind|r_indexFing1_bind|r_indexFing2_bind|r_indexFing3_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -3.1258332888942205e-15, 
+            1.1052427518085763e-13, 
+            -3.2400000165879566
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            -9.144094709207607e-15
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -5.001395032509706, 
+            0.06724430632721834, 
+            2.495840771743474e-05
+        ]
+    }, 
+    "r_indexFing4_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_indexFingBase1_bind|r_indexFing1_bind|r_indexFing2_bind|r_indexFing3_bind|r_indexFing4_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -3.5931488719311773, 
+            -5.091250799438285e-05, 
+            -1.6630745873769115e-05
+        ]
+    }, 
+    "r_indexFingBase1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_indexFingBase1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            89.56915782951911, 
+            -17.491211432783107, 
+            -4.069761794279074
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -3.4775445698235927, 
+            2.8993311125190457, 
+            -0.7675175352846821
+        ]
+    }, 
+    "r_knee1_bind": {
+        "dagPath": "|bind|root1_bind|pelvis1_bind|r_hip1_bind|r_knee1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            -5.37971732750778
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -65.31042798030455, 
+            4.263256414560601e-14, 
+            1.7763568394002505e-14
+        ]
+    }, 
+    "r_middleFing1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_middleFingBase1_bind|r_middleFing1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -7.489191204986849, 
+            1.9772177425260704, 
+            -23.703904292973196
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -13.776600686720656, 
+            3.2263292808920596e-05, 
+            -2.7648306639704856e-06
+        ]
+    }, 
+    "r_middleFing2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_middleFingBase1_bind|r_middleFing1_bind|r_middleFing2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -9.520358646475467e-16, 
+            1.610155807490907e-14, 
+            -6.767569156935422
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -7.318736239112482, 
+            0.024101529331005622, 
+            -1.3607897133061098e-05
+        ]
+    }, 
+    "r_middleFing3_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_middleFingBase1_bind|r_middleFing1_bind|r_middleFing2_bind|r_middleFing3_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            1.7075472918341694e-06, 
+            2.3655376284627666e-14, 
+            -3.2400000165879566
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            -6.758678698109972e-15
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -4.960815419904563, 
+            0.04833952439731348, 
+            -4.231401422499781e-06
+        ]
+    }, 
+    "r_middleFing4_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_middleFingBase1_bind|r_middleFing1_bind|r_middleFing2_bind|r_middleFing3_bind|r_middleFing4_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            2.0913097891518718e-06, 
+            1.0080872192258634e-21, 
+            -8.670547422431514e-22
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -3.992905349196562, 
+            -5.233680911231886e-05, 
+            -4.313740352618334e-06
+        ]
+    }, 
+    "r_middleFingBase1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_middleFingBase1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            83.3502105199473, 
+            -16.20095296128066, 
+            8.426774418577859
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -3.644121107030017, 
+            0.5522479778504865, 
+            -0.8904255265086789
+        ]
+    }, 
+    "r_nostril1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|r_nostril1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -1.2568647292519662e-14, 
+            1.5324192568148373e-15, 
+            -158.0638446552571
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            -180.0, 
+            -21.251000000000023, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            1.885383697470843, 
+            -14.557113365217937, 
+            0.8189999695989255
+        ]
+    }, 
+    "r_nostril2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|r_nostril1_bind|r_nostril2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            2.492151868493964, 
+            1.3433698597964394e-14, 
+            -1.366962099069724e-14
+        ]
+    }, 
+    "r_pinkyFing1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_pinkyFingBase1_bind|r_pinkyFing1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -8.268281347849697, 
+            -3.3509763057415767, 
+            -10.782650380777392
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -11.583841182505267, 
+            0.1009879984993205, 
+            -0.03178510113560762
+        ]
+    }, 
+    "r_pinkyFing2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_pinkyFingBase1_bind|r_pinkyFing1_bind|r_pinkyFing2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            2.3686191666475305e-15, 
+            -2.146874409987874e-14, 
+            -12.591814425945529
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -5.172237971895811, 
+            -5.5011941853422286e-05, 
+            0.00013803183311011935
+        ]
+    }, 
+    "r_pinkyFing3_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_pinkyFingBase1_bind|r_pinkyFing1_bind|r_pinkyFing2_bind|r_pinkyFing3_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            2.9496116780368233e-15, 
+            -3.498610149609855e-14, 
+            -9.63820387272526
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            -2.2648144417428613e-14, 
+            2.686354563844024e-13, 
+            -3.231443556366933e-12
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -2.9825026129416727, 
+            6.587296802251785e-06, 
+            -6.12593636848402e-05
+        ]
+    }, 
+    "r_pinkyFing4_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_pinkyFingBase1_bind|r_pinkyFing1_bind|r_pinkyFing2_bind|r_pinkyFing3_bind|r_pinkyFing4_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -3.409863300311841, 
+            -3.8609325478944356e-05, 
+            4.117973944062214e-05
+        ]
+    }, 
+    "r_pinkyFingBase1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_pinkyFingBase1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            71.08784987277105, 
+            0.5703373476669256, 
+            24.320626035851056
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -3.251961936236384, 
+            -3.5986967104964265, 
+            -0.18561126590736876
+        ]
+    }, 
+    "r_ringFing1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_ringFingBase1_bind|r_ringFing1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -5.73508295567334, 
+            -0.5919519003243899, 
+            -16.076376092030298
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -13.108997213229529, 
+            -4.3945841298409505e-05, 
+            -2.9733764028705423e-06
+        ]
+    }, 
+    "r_ringFing2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_ringFingBase1_bind|r_ringFing1_bind|r_ringFing2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -8.512574757656286e-16, 
+            9.541664044390544e-15, 
+            -10.196266475915907
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -6.559526333826881, 
+            4.3371219192067656e-05, 
+            8.276821769515053e-05
+        ]
+    }, 
+    "r_ringFing3_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_ringFingBase1_bind|r_ringFing1_bind|r_ringFing2_bind|r_ringFing3_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -5.312779426916805e-16, 
+            1.4213103732789937e-14, 
+            -4.28137571661474
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            -1.3487660679853656e-14, 
+            3.608309416804178e-13, 
+            9.74840009868568e-13
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -4.697988085595554, 
+            -9.233068382741294e-06, 
+            4.137217577859786e-06
+        ]
+    }, 
+    "r_ringFing4_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_ringFingBase1_bind|r_ringFing1_bind|r_ringFing2_bind|r_ringFing3_bind|r_ringFing4_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -3.6673379218771203, 
+            -4.3280368672071745e-05, 
+            -2.2106964805423956e-05
+        ]
+    }, 
+    "r_ringFingBase1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_ringFingBase1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            70.76006029046955, 
+            -8.568247220624198, 
+            17.368268062513334
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -3.4225214674653444, 
+            -1.6079280917497074, 
+            -0.32458365100681874
+        ]
+    }, 
+    "r_scapula1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_scapula1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.21844427213213297, 
+            -1.925880967277515, 
+            118.71906345232223
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -25.342747345284064, 
+            -1.3178988792791162, 
+            -1.440894666931655
+        ]
+    }, 
+    "r_scapula2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_scapula1_bind|r_scapula2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            1.2074182697257331e-06, 
+            -2.681007129122455e-22, 
+            2.1992633762173493e-23
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -19.65941588929242, 
+            1.6267990289975387e-05, 
+            0.0006566368931544275
+        ]
+    }, 
+    "r_shoulder1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            17.099316631318615, 
+            62.49552114898891, 
+            -31.471795375007595
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -24.26534156178259, 
+            -2.8234551402217534e-05, 
+            0.00043741189071511144
+        ]
+    }, 
+    "r_thumbFing1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_thumbFingBase1_bind|r_thumbFing1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            2.4491065259300893, 
+            5.610215936242105, 
+            -20.805237756707676
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -2.4389894250842445, 
+            -6.710331014403437e-05, 
+            -6.499420655359245e-05
+        ]
+    }, 
+    "r_thumbFing2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_thumbFingBase1_bind|r_thumbFing1_bind|r_thumbFing2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            1.207418285562193e-06, 
+            -1.1370482990971467e-13, 
+            -15.857948325418782
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -6.8483366229584135, 
+            -0.0593051360442729, 
+            4.341689229647727e-05
+        ]
+    }, 
+    "r_thumbFing3_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_thumbFingBase1_bind|r_thumbFing1_bind|r_thumbFing2_bind|r_thumbFing3_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            2.163161853761232e-06, 
+            -4.1030278961577577e-07, 
+            -19.86578978700769
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -6.649153853428771, 
+            0.1511244957416622, 
+            -3.347194128622277e-05
+        ]
+    }, 
+    "r_thumbFing4_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_thumbFingBase1_bind|r_thumbFing1_bind|r_thumbFing2_bind|r_thumbFing3_bind|r_thumbFing4_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            3.4150945850063746e-06, 
+            -5.392683349347582e-22, 
+            2.4455952037248602e-14
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -5.364713270733375, 
+            5.1107522335058775e-05, 
+            1.747393258710872e-05
+        ]
+    }, 
+    "r_thumbFingBase1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|r_clavicle1_bind|r_shoulder1_bind|r_elbow1_bind|r_hand1_bind|r_thumbFingBase1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            173.9277043257456, 
+            10.776520085484973, 
+            -45.02610830413811
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -1.4160237337618895, 
+            2.5219537674849453, 
+            0.5593186928680041
+        ]
+    }, 
+    "r_toe_pivot": {
+        "dagPath": "|bind|r_ankle_pivot|r_bankIn_pivot|r_bankOut_pivot|r_heel_pivot|r_balr_pivot|r_toe_pivot", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -3.886128494818812, 
+            -10.02217271144666, 
+            5.181236829555593
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            3.019051914109084, 
+            10.313852844799687, 
+            -4.56782774633435
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -0.39172863142080416, 
+            2.944202371685268, 
+            -14.546106720961054
+        ]
+    }, 
+    "r_toes1_bind": {
+        "dagPath": "|bind|root1_bind|pelvis1_bind|r_hip1_bind|r_knee1_bind|r_foot1_bind|r_toes1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            3.2626154770536216e-13, 
+            1.87851510873939e-14, 
+            25.548722665018563
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            -1.7116559338745934e-14, 
+            1.0810945615048503e-14, 
+            -2.5444437451708134e-14
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -22.90679729828269, 
+            -1.65368723712269, 
+            3.552713678800501e-14
+        ]
+    }, 
+    "r_toes2_bind": {
+        "dagPath": "|bind|root1_bind|pelvis1_bind|r_hip1_bind|r_knee1_bind|r_foot1_bind|r_toes1_bind|r_toes2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            1.6903529968223384e-13, 
+            -8.945310041616142e-16, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            -1.1529510720305244e-14, 
+            -1.8014860500477074e-16, 
+            -1.3020395727241266e-14
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -14.553018631996386, 
+            1.687538997430238e-14, 
+            0.0
+        ]
+    }, 
+    "root1_bind": {
+        "dagPath": "|bind|root1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 3, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            -3.641943830237548e-15, 
+            143.83309260332092, 
+            -3.604828159084153
+        ]
+    }, 
+    "spine1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -89.99999999999999, 
+            5.300391835058335, 
+            89.99999999999999
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            0.0, 
+            0.0, 
+            -4.440892098500626e-16
+        ]
+    }, 
+    "spine2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            12.57336473171765
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            10.28901481628418, 
+            -0.00032747761358642435, 
+            -1.2551891064963921e-14
+        ]
+    }, 
+    "spine3_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            -3.599958791542238
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            10.164869308471623, 
+            -1.4210854715202004e-14, 
+            1.3284252697310236e-14
+        ]
+    }, 
+    "spine4_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            -5.88184059321792
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            10.276910781860437, 
+            6.394884621840902e-14, 
+            -6.392884752914309e-15
+        ]
+    }, 
+    "spine5_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            4.337235296290256e-16, 
+            5.749463601892271e-15, 
+            -6.819021385904846
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            13.334362437622843, 
+            -1.4210854715202004e-14, 
+            3.663701459571405e-15
+        ]
+    }, 
+    "spine6_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            3.2513334950376615e-15, 
+            6.213998653346556e-15, 
+            3.095157660790948
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            23.71602700966784, 
+            -1.687538997430238e-14, 
+            3.598506875259035e-12
+        ]
+    }, 
+    "tongue1_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|jaw1_bind|tongue1_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            -0.0004941409246569508, 
+            -0.00020511089229887185, 
+            71.62255975172513
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            2.118229705170137, 
+            -6.656665366691584, 
+            3.445476604232252e-05
+        ]
+    }, 
+    "tongue2_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|jaw1_bind|tongue1_bind|tongue2_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            1.1960134229360441e-15, 
+            -7.053991209434441e-15, 
+            -19.246114599772028
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            1.8868654075775453, 
+            0.0, 
+            2.0980780440071711e-16
+        ]
+    }, 
+    "tongue3_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|jaw1_bind|tongue1_bind|tongue2_bind|tongue3_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            1.191312346058524e-15, 
+            -6.9532711670168445e-15, 
+            -19.444318378795135
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            1.8805304084235104, 
+            -2.842170943040401e-14, 
+            2.315196468583886e-16
+        ]
+    }, 
+    "tongue4_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|jaw1_bind|tongue1_bind|tongue2_bind|tongue3_bind|tongue4_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            1.03625093946768e-15, 
+            -6.062265239977123e-15, 
+            -19.400164649626024
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            1.8803679792891188, 
+            0.0, 
+            2.281934767977734e-16
+        ]
+    }, 
+    "tongue5_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|jaw1_bind|tongue1_bind|tongue2_bind|tongue3_bind|tongue4_bind|tongue5_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            8.695647771661317e-17, 
+            -5.951025450079549e-15, 
+            -1.6742945141348748
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            1.8856279385318118, 
+            0.0, 
+            1.995081150216995e-16
+        ]
+    }, 
+    "tongue6_bind": {
+        "dagPath": "|bind|root1_bind|spine1_bind|spine2_bind|spine3_bind|spine4_bind|spine5_bind|spine6_bind|neck1_bind|neck2_bind|neck3_bind|neck4_bind|head1_bind|jaw1_bind|tongue1_bind|tongue2_bind|tongue3_bind|tongue4_bind|tongue5_bind|tongue6_bind", 
+        "drawStyle": 0, 
+        "jointOrient": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "preferredAngle": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotate": [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        "rotateOrder": 0, 
+        "scale": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "translate": [
+            1.8878671856627207, 
+            0.0, 
+            1.9607973420373788e-16
+        ]
+    }
+}
