@@ -32,6 +32,8 @@ START - long_sleeping
 
 
 import time
+from datetime import datetime
+import maya.cmds as cmds
 
 
 #*********************************************************************
@@ -56,3 +58,33 @@ def long_sleeping():
     time.sleep(4)
 
 short_sleeping("so sleepy")
+
+#*********************************************************************
+#ASSIGMENT
+
+def print_status(func):
+ def wrapper():
+   start_time = datetime.now()
+   print("*************************************************")
+   print("START")
+   
+   funcCube() # main_function
+   
+   print("DONE")
+   result_time = (datetime.now() - start_time).total_seconds()
+   
+   print 'the cube was created in, Time: {}'.format(result_time)
+   print("*************************************************")
+    
+ return wrapper
+
+
+@print_status
+def process():
+
+ print("create cube -------------- True")
+
+ return True
+
+#Run function 
+process()
