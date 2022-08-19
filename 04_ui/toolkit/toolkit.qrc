@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="img">
+    <file>img/toolkit.jpg</file>
+    <file>img/toolkit.png</file>
+  </qresource>
+</RCC>
