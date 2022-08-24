@@ -1,5 +1,5 @@
 #*****************************************************************
-# content = jcToolkit
+# content = jc-Toolkit, this is focused in rig, and it is helping to improve the process in some tasks that are repetitly day by day.
 # date     = 2022-06-14
 #
 # class   = Python Advance
@@ -31,9 +31,7 @@ reload(fu)
 reload(cu)
 reload(tu)
 
-
-
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#*****************************************************************
 # VARIABLES SECTION
 
 TITLE = os.path.splitext(os.path.basename(__file__))[0]
@@ -53,13 +51,10 @@ def maya_main_window():
     else:
         return wrapInstance(long(main_window_ptr), QtWidgets.QWidget)
 
-
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#*****************************************************************
 # CLASSES SECTION
 
-#*****************************************************************
-#EXTEND THE QLINE EDIT
-#*****************************************************************
+'''EXTEND THE QLINE EDIT'''
 class MyLineEdit(QtWidgets.QLineEdit):
     #create signal
     enter_pressed = QtCore.Signal()
@@ -73,7 +68,6 @@ class MyLineEdit(QtWidgets.QLineEdit):
 
 #*****************************************************************
 #JcToolkit CLASS
-#*****************************************************************
 class JcToolkit(QtWidgets.QDialog):
 
     def __init__(self, parent=maya_main_window()):
@@ -92,7 +86,6 @@ class JcToolkit(QtWidgets.QDialog):
         #Joint section
         self.create_joint_connections()
 
-
     #*****************************************************************
     def init_ui(self):
         
@@ -108,19 +101,12 @@ class JcToolkit(QtWidgets.QDialog):
         #Show the - from the dialog on Window
         self.ui.setWindowFlags(self.windowFlags() ^ QtCore.Qt.WindowFlags(QtCore.Qt.WindowMinimizeButtonHint, True))
 
-
         self.ui.show()
 
-    #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    #SIGNALS SECTION
-    
+    '''SIGNALS SECTION'''
     #*****************************************************************
     #SIGNAL CONNECTIONS CONTROL'S TAP
-    #*****************************************************************
     def create_control_connections(self):
-        """
-        color
-        """
         self.ui.btnRED.clicked.connect(lambda:self.setcolor_curve(btnCOLOR=common.RED)) 
         self.ui.btnBLUE.clicked.connect(lambda:self.setcolor_curve(btnCOLOR=common.BLUE)) 
         self.ui.btnYELLOW.clicked.connect(lambda:self.setcolor_curve(btnCOLOR=common.YELLOW)) 
@@ -131,138 +117,85 @@ class JcToolkit(QtWidgets.QDialog):
         self.ui.btnCYAN.clicked.connect(lambda:self.setcolor_curve(btnCOLOR=common.BLUE04)) 
         self.ui.btnORANGE.clicked.connect(lambda:self.setcolor_curve(btnCOLOR=common.ORANGE)) 
         self.ui.btnVIOLET_RED.clicked.connect(lambda:self.setcolor_curve(btnCOLOR=common.VIOLET_RED))
-        """
-        create control
-        """
+
         self.ui.btnCreatCtrl.clicked.connect(self.create_control) 
-        """
-        transform
-        """
+   
         self.ui.btnScaleUp.clicked.connect(lambda:self.scale_ctl(Range=1.2)) 
 
         self.ui.btnScaleDn.clicked.connect(lambda:self.scale_ctl(Range=-0.9)) 
-        """
-        Show CurveUtil tool
-        """
+  
         self.ui.btnCurveUtil.clicked.connect(self.CurveUtil)
 
     
     #*****************************************************************
     #SIGNAL CONNECTIONS GENERAL'S TAP
-    #*****************************************************************
     def create_general_connections(self):
-            """
-            create Offset group
-            """
             self.ui.btnOffsetGrp.clicked.connect(self.create_offset) 
 
-            """
-            lock and unlock attributes
-            """
             self.ui.btnLockHide.clicked.connect(self.lockAll) 
             self.ui.btnUnlockAll.clicked.connect(self.unlockAll) 
-            """
-            snap
-            """
+
             self.ui.btnSnap.clicked.connect(self.snap) 
 
-            """
-            translate, rotate, scale's connection
-            """
             self.ui.btnScale.clicked.connect(self.scale_connection) 
             self.ui.btnRotate.clicked.connect(self.rotate_connection) 
             self.ui.btnTranslate.clicked.connect(self.translate_connection) 
 
     #*****************************************************************
     #SIGNAL CONNECTIONS JOINT'S TAP
-    #*****************************************************************
     def create_joint_connections(self):
-        """
-        average joint
-        """
+
         self.ui.btnAverageJnt.clicked.connect(self.average_Joint) 
-        """
-        selection to joint
-        """
+
         self.ui.btnSelJoint.clicked.connect(self.selectionTojoint) 
-        """
-        Add widgets into the horizontalLayout_12
-        """
+
+        #Add widgets into the horizontalLayout_12
         self.create_fkChain_Layout()
-        """
-        Create fk chain
-        """
+ 
         self.create_bttn.clicked.connect(self.fkJointChain)
-        """
-        Show and hide Orient
-        """
+
         self.ui.btnShow.clicked.connect(self.showOrient)
         self.ui.btnHide.clicked.connect(self.hideOrient)
-        """
-        Show and hide Axis
-        """
+  
         self.ui.btnShowAxis.clicked.connect(self.showAxis)
         self.ui.btnHideAxis.clicked.connect(self.hideAxis)
 
     #*****************************************************************
     #SIGNAL CONNECTIONS FX'S TAP
-    #*****************************************************************
 
-        """
-        Show and Off selection follcile
-        """
         self.ui.btn_show_selection.clicked.connect(lambda:self.follcile_Visibility(1, selection=True, All=False))
         self.ui.btn_hide_selection.clicked.connect(lambda:self.follcile_Visibility(0, selection=True, All=False)) 
-
-        """
-        Show and Off all the follcile
-        """
+        
         self.ui.btn_show_all.clicked.connect(lambda:self.follcile_Visibility(1, selection=False, All=True))
         self.ui.btn_hide_all.clicked.connect(lambda:self.follcile_Visibility(0, selection=False, All=True)) 
 
-        """
-        Cretate Follicles   
-        """
-
         self.ui.btn_fx_create.clicked.connect(self.create_Follicles)
-
-
 
     #*****************************************************************
     #SIGNAL CONNECTIONS GEOMETRY'S TAP
-    #*****************************************************************
-        """
-        Show abSymMesh tool
-        """
+
         self.ui.btnAbSymMesh.clicked.connect(self.abSymmetryMesh)
-        """
-        Show DoraSkinWeightImpExp tool
-        """
+
         self.ui.btnDoraSkin.clicked.connect(self.DoraSkinWeightImpExp)
 
-        """
-        set into zero transformation object selection
-        """
         self.ui.btnZeroTransforms.clicked.connect(self.ZeroTransform)
 
 
 
-    #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    #CONTROL FUNCTIONS 
     #*****************************************************************
-
+    #CONTROL FUNCTIONS 
+    
     def color_dialog(self):
         color = QtWidgets.QColorDialog.getColor( self, options=QtWidgets.QColorDialog.DontUseNativeDialog)
-        #self.ui.btnColorDialog.setTextColor(color)
         return color
 
     def setcolor_curve(self, btnCOLOR=common.RED02):
 
-        control=cmds.ls(sl=True)
+        control = cmds.ls(sl=True)
 
         for i in control:
 
-            color=btnCOLOR
+            color = btnCOLOR
             cmds.setAttr('{0}.overrideEnabled'.format(i),1)
             cmds.setAttr('{0}.overrideColor'.format(i), color)
 
@@ -274,8 +207,8 @@ class JcToolkit(QtWidgets.QDialog):
             #get joint position
             JointPosition = cmds.xform(i, q=True, ws=True, matrix=True) 
             #cretae control
-            control=ctl.createControl(name='{0}_Ctrl'.format(i),controlType = 'sphere', hierarchy=['Grp','nul'], position=[0,0,0],
-                    rotation=[0,0,0], parent=None, color=common.BLUE, ctrlScale = [1,1,1])
+            control = ctl.createControl(name='{0}_Ctrl'.format(i),controlType='sphere', hierarchy=['Grp','nul'], position=[0,0,0],
+                    rotation=[0,0,0], parent=None, color=common.BLUE, ctrlScale=[1,1,1])
             
             #Match the control position to the joint position
             cmds.xform(control[-1], ws=True, matrix=JointPosition)
@@ -299,20 +232,19 @@ class JcToolkit(QtWidgets.QDialog):
             return True
 
     
-    #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    #GENERAL FUNCTIONS
     #*****************************************************************
+    #GENERAL FUNCTIONS
     
     def create_offset(self):
 
-        getObj=cmds.ls(sl=True)
+        getObj = cmds.ls(sl=True)
         
         for i in getObj:
             cu.addOffset(i, suffix='Off')
 
     def lockAll(self):
         
-        getObj=cmds.ls(sl=True)
+        getObj = cmds.ls(sl=True)
         
         for i in getObj:
             
@@ -321,7 +253,7 @@ class JcToolkit(QtWidgets.QDialog):
 
     def unlockAll(self):
         
-        getObj=cmds.ls(sl=True)
+        getObj = cmds.ls(sl=True)
         
         for i in getObj:
             
@@ -329,13 +261,13 @@ class JcToolkit(QtWidgets.QDialog):
 
     def snap(self):
 
-        getObj=cmds.ls(sl=True)
+        getObj = cmds.ls(sl=True)
 
         tu.snap(getObj[0], getObj[-1])
 
     def translate_connection(self):
 
-        getObj=cmds.ls(sl=True)
+        getObj = cmds.ls(sl=True)
 
         tAttrs = ["tx", "ty", "tz"]
         for t in tAttrs:
@@ -343,7 +275,7 @@ class JcToolkit(QtWidgets.QDialog):
     
     def rotate_connection(self):
 
-        getObj=cmds.ls(sl=True)
+        getObj = cmds.ls(sl=True)
 
         rAttrs = ["rx", "ry", "rz"]
         for t in rAttrs:
@@ -351,15 +283,14 @@ class JcToolkit(QtWidgets.QDialog):
 
     def scale_connection(self):
 
-        getObj=cmds.ls(sl=True)
+        getObj = cmds.ls(sl=True)
 
         sAttrs = ["sx", "sy", "sz"]
         for t in sAttrs:
             cmds.connectAttr ('{0}.{1}'.format(getObj[0],t), '{0}.{1}'.format(getObj[-1],t))
 
-    #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    #JOINT FUNCTIONS
     #*****************************************************************
+    #JOINT FUNCTIONS
 
     def average_Joint(self):
 
@@ -372,16 +303,15 @@ class JcToolkit(QtWidgets.QDialog):
         return True
 
     def selectionTojoint(self):
-
         #get selectyion obj
-        getObj=cmds.ls(sl=True)
+        getObj = cmds.ls(sl=True)
         #get leng of the list
-        numList=len(getObj)
+        numList = len(getObj)
         #joint empty list
-        jnt_lidt=[]
+        jnt_lidt = []
         #create joint
         for x in range(numList):
-            jnt=cmds.createNode('joint', n='Temp_{:02d}_Jnt'.format(x+1))
+            jnt = cmds.createNode('joint', n='Temp_{:02d}_Jnt'.format(x+1))
             jnt_lidt.append(jnt)
         #snap joints to each obj in the list
         for obj, jnt in zip(getObj,jnt_lidt):
@@ -390,17 +320,14 @@ class JcToolkit(QtWidgets.QDialog):
         return True
 
     def fkJointChain(self):
-
-
         Number = self.spin_box.value()
         Suffix = self.lineEdit.text()
 
         ju.createJointChain('{}'.format(Suffix), startPosition=(0,0,0), startRotation=(0,0,-90), number=Number)
     
     def create_fkChain_Layout(self):
-        """
-        append the new QLine edit, QSpinBox, QPushBotton into the horizontalLayout_12
-        """
+        #append the new QLine edit, QSpinBox, QPushBotton into the horizontalLayout_12
+        
         self.lineEdit = MyLineEdit()
         self.lineEdit.setStyleSheet("QLineEdit"
                         "{"
@@ -433,89 +360,71 @@ class JcToolkit(QtWidgets.QDialog):
     def hideAxis(self):
         ju.setAxisDisplay(display=False, allObj=False)
 
-    #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    #FX FUNCTIONS
     #*****************************************************************
+    #FX FUNCTIONS
 
     def follcile_Visibility(self, value, selection=True, All=False):
-        '''
-
-        '''
-        
         fu.follicle_vis(show_off=value, selection=selection, All=All)
 
         return True
 
     def create_Follicles(self):
-        '''
-
-        '''
         lineEdit  = self.get_line_edit_text(self.ui.lineEdit_fx)
         spinBox   = self.get_spin_value(self.ui.spinBox_fx)
         UcheckBox = self.get_checkBox_state(self.ui.UcheckBox)
         VcheckBox = self.get_checkBox_state(self.ui.VcheckBox)
 
-        print lineEdit, spinBox, UcheckBox, VcheckBox
+        print (lineEdit, spinBox, UcheckBox, VcheckBox)
 
         fu.createFollicles( name_Surface='{0}'.format(lineEdit), u_dir=UcheckBox, v_dir=VcheckBox, resolution=spinBox, vParam=0.5, uParam=0.5)
 
         return True
 
-    #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    #GEOMETRY FUNCTIONS
     #*****************************************************************
+    #GEOMETRY FUNCTIONS
     def abSymmetryMesh(self):
-        '''
-        Run the abSymMesh tool
-        '''
+        #Run the abSymMesh tool
         mel.eval("source abSymMesh;")
         mel.eval("abSymMesh;")
 
         return True
 
     def DoraSkinWeightImpExp(self):
-        '''
-        Run the DoraSkinWeightImpExp tool
-        '''
+        #Run the DoraSkinWeightImpExp tool
         mel.eval("source DoraSkinWeightImpExp;")
         mel.eval("DoraSkinWeightImpExp;")
 
         return True
 
     def ZeroTransform(self):
-
         getNameCtrl = cmds.ls(sl=True, an=True)
         for i in getNameCtrl:
             cmds.makeIdentity(i, apply=True, t=1, r=1, s=1, n=0)
 
         return True
 
-    #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    #GET UI DATA
     #*****************************************************************
-
+    #GET UI DATA
     def get_line_edit_text(self, target):
-        prefix=target.text()
+        prefix = target.text()
         print("prefix: {0}".format(prefix))
 
         return prefix
 
     def get_spin_value(self, target):
-        value=target.value()
+        value = target.value()
         print("Value: {0}".format(value))
 
         return value
 
     def get_checkBox_state(self, target):
-        state=target.isChecked()
+        state = target.isChecked()
         print("State: {0}".format(state))
 
         return state
 
-
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#START UI
 #*****************************************************************
+#START UI
 if __name__ == "__main__":
     #app = QtWidgets.QApplication(sys.argv)
     try:
@@ -527,15 +436,12 @@ if __name__ == "__main__":
     Create_UI_ui = JcToolkit()
     Create_UI_ui.show()
 
-
 def load():
 
     global Create_UI_ui   
     Create_UI_ui = JcToolkit()
 
         
-
-
 
 
 
