@@ -76,9 +76,8 @@ class JcToolkit(QtWidgets.QDialog):
         #Show ui
         self.init_ui()
 
-        """
-        Run Connections
-        """
+        """Run Connections"""
+
         #Color Section
         self.create_control_connections()
         #General section
