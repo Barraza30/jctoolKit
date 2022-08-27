@@ -18,18 +18,19 @@ import maya.mel as mel
 import maya.cmds as cmds
 import maya.OpenMayaUI as omui
 
-import rigtools.libs.control as ctl
-import rigtools.utils.fx_utility as fu
-import rigtools.libs.common as common
-import rigtools.utils.joint_utility as ju
-import rigtools.utils.control_utily as cu
-import rigtools.utils.transform_utility as tu
+import toolkit.utils.control as ctl
+import toolkit.utils.fx_utility as fu
+import toolkit.utils.common as common
+import toolkit.utils.joint_utility as ju
+import toolkit.utils.control_utily as cu
+import toolkit.utils.transform_utility as tu
 
 reload(common)
 reload(ctl)
 reload(fu)
 reload(cu)
 reload(tu)
+
 
 #*****************************************************************
 # VARIABLES SECTION
